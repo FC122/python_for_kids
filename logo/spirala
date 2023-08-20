@@ -1,0 +1,15 @@
+from turtle import *
+def spirala(a,k):
+    while a>=10:
+        fd(a)
+        lt(90)
+        a=a-k
+
+def trokutSpirala(a,k):
+    while a>=10:
+        fd (a)
+        lt(120)
+        a=a-k
+
+trokutSpirala(100,10)
+
