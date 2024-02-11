@@ -1,8 +1,9 @@
 # Python tutorials
 Content made while teaching python to kids along various workshops
 
-# Tasks
-Guessing Game: Create a program that generates a random number between 1 and 100 and asks the user to guess the number. The program should provide feedback to the user if their guess is too high or too low until they guess the correct number.
+## Tasks
+### Guessing Game: 
+Create a program that generates a random number between 1 and 100 and asks the user to guess the number. The program should provide feedback to the user if their guess is too high or too low until they guess the correct number.
 
 Korak 1: Uvezi potrebne module. Koristimo tkinter za izradu grafičkog korisničkog sučelja i randint iz modula random za generiranje nasumičnog broja.
 
@@ -23,7 +24,8 @@ Kod se može pokrenuti spremanjem kao .py datoteku i pokretanjem pomoću Python 
 
 
 
-To-Do List: Create a program that allows the user to add tasks to a to-do list, mark tasks as completed, and remove tasks from the list.
+### To-Do List: 
+Create a program that allows the user to add tasks to a to-do list, mark tasks as completed, and remove tasks from the list.
 
 
 **Korak 1:** Uvezi potrebne module. Trebat će nam `tkinter` biblioteka za izradu grafičkog korisničkog sučelja, te `messagebox` biblioteka za prikaz upozorenja kada je to potrebno.
@@ -44,7 +46,8 @@ To-Do List: Create a program that allows the user to add tasks to a to-do list, 
 
 **Korak 9:** Pokreni glavnu petlju. Ovo će pokrenuti tkinter događajnu petlju. Aplikacija će ostati otvorena dok je korisnik ne zatvori.
 
-Dice Roller: Create a program that simulates rolling a pair of dice. The program should allow the user to specify how many times they want to roll the dice and should display the results of each roll.
+### Dice Roller: 
+Create a program that simulates rolling a pair of dice. The program should allow the user to specify how many times they want to roll the dice and should display the results of each roll.
 
 Korak 1: Uvezi potrebne module. Koristimo tkinter za izradu grafičkog korisničkog sučelja i randint iz modula random za generiranje nasumičnih brojeva.
 
@@ -63,12 +66,15 @@ Korak 7: Dodaj tekstualni widget koji će prikazivati rezultate bacanja. Ovaj wi
 Korak 8: Pokreni glavnu petlju. Ovo pokreće događajnu petlju tkintera. Aplikacija će ostati otvorena dok je korisnik ne zatvori.
 
 
+## Task
 Napravite program koji sadrži 100 unaprijed definiranih riječi. Na početku igre, program bi trebao zatražiti koliko riječi želite pogađati. Nakon što ste odredili broj riječi, program vam nasumično daje jednu po jednu izmiješanu riječ koju trebate pogoditi. Kada pogodite jednu riječ, dobivate sljedeću i tako nastavljate dok ne pogodite broj riječi koji ste prethodno odabrali. Također biste trebali imati mogućnost preskakanja riječi koje ne možete pogoditi. Za izradu korisničkog sučelja, igra bi trebala koristiti tkinter.
 
+## Task
 Napravite program koji sadrži 100 unaprijed definiranih riječi. Na početku igre, program bi trebao zatražiti koliko riječi želite pogađati. Nakon što ste odredili broj riječi, program vam nasumično daje jednu po jednu izmiješanu riječ koju trebate pogoditi. Kada pogodite jednu riječ, dobivate sljedeću i tako nastavljate dok ne pogodite broj riječi koji ste prethodno odabrali. Također biste trebali imati mogućnost preskakanja riječi koje ne možete pogoditi. Za izradu korisničkog sučelja, igra bi trebala koristiti tkinter.
 Uvezi potrebne module:
 Koristimo tkinter za korisničko sučelje i modul random za nasumično miješanje popisa riječi i za odabir slučajne riječi s popisa.
 
+## Task
 Definiraj popis riječi:
 Imamo popis od 10 riječi koje se ponavljaju 10 puta kako bismo dobili 100 riječi. Zatim koristimo funkciju shuffle() iz modula random da bi smo nasumično izmiješali ovaj popis.
 
